@@ -6,3 +6,6 @@ module "instance" {
   source = "./modules/instance"
 }
 
+module "vpc" {
+    source = "./modules/vpc"
+}
